@@ -1,0 +1,24 @@
+{
+  "name": "bakery",
+  "version": "1.0.0",
+  "description": "Elements theme builder",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelardogg/bakery.git"
+  },
+  "author": "abelardogg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abelardogg/bakery/issues"
+  },
+  "homepage": "https://github.com/abelardogg/bakery#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}

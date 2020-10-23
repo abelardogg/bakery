@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakey - make your own themes!</title>
+    <meta name="description" content="Make your own CSS themes and test them live!">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bakery!</h1>
+        <div id="intro">
+            <p>
+                Make your own CSS components, testem live, copy the code and put it on your project, simple!
+            </p>
+        </div>
+        <div id="get-started">
+            <label for="theme-name"></label>
+            <input type="text" name="theme-name" id="theme-name" placeholder=pancakes><span>.css</span>
+        </div>
+        <div id="colors-continaer">
+            <h3>Colors!</h3>
+            <p>First, lets choose your theme colors.</p>
+            <div id="colors-saved">
+                <p>Colors saved</p>
+                <ul id="colors-saved-list">
+
+                </ul>
+            </div>
+            <div id="color-picker-container">
+                <p>Color picker</p>
+                <form id="color-picker-form">
+                    <input type="text" name="color-name" id="color-name" required placeholder="pink-cake">
+                    <input type="color" name="color-picker" id="color-picker">
+                    <br>
+                    <button id="color-picker-save">save</button>
+                </form>
+            </div>
+        </div>
+        <div id="playground">
+            <div class="controls">
+
+                <select name="element-selector" id="element-selector"></select>
+
+            </div>
+            <div class="element">
+
+            </div>
+        </div>
+    </div>
+    <script src="/js/app.js"></script>
+    <script src="/js/controls.js"></script>
+</body>
+</html>
